@@ -1,4 +1,7 @@
 #!/usr/bin/env ruby
-require_relative 'album_reviews/lib/album_reviews.rb'
+require_relative '../lib/album_reviews'
+require 'pry'
 
 AlbumReviews::CLI.new.call
+
+

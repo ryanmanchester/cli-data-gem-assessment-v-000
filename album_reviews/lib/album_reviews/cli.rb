@@ -17,17 +17,19 @@ class AlbumReviews::CLI
   end
 
   def menu
-    puts "Which review would you like to read (1-2)? Or type 'exit' to leave."
     input = nil
     while input != 'exit'
+      puts "Which review would you like to read (1-2)? Or type 'exit' to leave."
       input = gets.strip.downcase
       case input
       when "1"
         puts "Mount Eerie is sad music."
       when "2"
         puts "Yo La Tango is not sad music."
+      when "list"
+        list_reviews
       else
-        "Enter the number of the review or enter 'exit'."
+        puts "Which album? Type 'list' to see all reviews or 'exit'."
       end
     end
   end

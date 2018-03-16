@@ -18,9 +18,9 @@ class AlbumReviews::CLI
 
   def menu
     puts "Which review would you like to read (1-2)? Or type 'exit' to leave."
-    input = gets.strip
+    input = nil
     while input != 'exit'
-      input 
+      input = gets.strip.downcase
       case input
       when "1"
         puts "Mount Eerie is sad music."

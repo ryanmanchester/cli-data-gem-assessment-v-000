@@ -18,3 +18,10 @@ Albums?
 1. Artist
 2. Genre
 3. Label
+4. Release date
+
+Author?
+1. Name
+2. Reviews
+
+#In addition to providing a list of reviews to be read (with accompanying info on album name, artist, label, realese date), I'd like to be ableto dive deeper and find all reviews by a certain author, all albums on a label, all albums by an artist* 
